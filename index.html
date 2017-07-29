@@ -3,34 +3,81 @@
 <head>
 	<meta charset="UTF-8">
 	<title>PhotoLab</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 	<link rel="stylesheet" href="dist/css/style.min.css">
 </head>
 <body>
-	<section>
-		<div class="navbar-fixed">
-			<nav>
-				<div class="container">
-					<div class="nav-wrapper">
-						<a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
-						<ul class="right hide-on-med-and-down" id="nav-mobile">
-							<li><a href="#">Sobre Mi</a></li>
-							<li><a href="#">Proyectos</a></li>
-							<li><a href="#">Contacto</a></li>
-						</ul>
-					</div>
+	<section class="home">
+		<nav>
+			<div class="container">
+				<div class="nav-wrapper">
+					<a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+					<ul class="hide-on-med-and-down" id="nav-mobile">
+						<li><a href="#">HOME</a></li>
+						<li><a href="#">PHOTOAPP</a></li>
+						<li><a href="#">DESIGN</a></li>
+						<li><a href="#">DOWNLOAD</a></li>
+					</ul>
 				</div>
-			</nav>
-		</div>
+			</div>
+		</nav>
+		
 		<ul id="slide-out" class="side-nav">
-			<li><a href="#">Sobre Mi</a></li>
-			<li><a href="#">Proyectos</a></li>
-			<li><a href="#">Contacto</a></li>
+			<li><a href="#">HOME</a></li>
+			<li><a href="#">PHOTOAPP</a></li>
+			<li><a href="#">DESIGN</a></li>
+			<li><a href="#">DOWNLOAD</a></li>
 		</ul>
+		<img src="assets/img/bg1.jpg" alt="bg img">
+		<div class="row">
+			<div class="col l12 m12 s12 fondo center white-text">
+				<h1>YOUR LIFE, A PHOTO</h1>
+				<p>print your life in a simple photo</p>
+				<a class="waves-effect waves-light btn-large">get started</a>
+			</div>
+		</div>
 	</section>
 
-	<div>
-		Hola
+	<div class="row segunda">
+		<div class="col l12 m12 s12">
+			<div class="col l6 m12 s12">
+				<h6 class="teal-text">REPRESENT YOUR LIFE WITH A SIMPLE PHOTO</h6>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde delectus adipisci optio. Commodi ducimus deleniti esse doloribus molestiae obcaecati repudiandae corporis aliquid, voluptatem perferendis, reprehenderit maiores unde maxime, deserunt, eum.</p>
+				<a class="waves-effect waves-light btn-large left">get started</a>
+			</div>
+			<div class="col l6 m12 s12 mano-container">
+				<img src="assets/img/hand.png" class="responsive-img" alt="hand">
+			</div>
+		</div>
+	</div>
+
+	<div class="row design">
+		<div class="col l12 m12 s12">
+			<div class="col l4 m12 s12">
+				<img src="assets/img/phone.png" alt="">
+			</div>
+			<div class="col l5 offset-l3 m12 s12">
+				<h6 class="teal-text">DESIGN</h6>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde delectus adipisci optio. Commodi ducimus deleniti esse doloribus molestiae obcaecati repudiandae corporis aliquid, voluptatem perferendis, reprehenderit maiores unde maxime, deserunt, eum.</p>
+				<a class="waves-effect waves-light btn-large left">learn more</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="row community">
+		<div class="col l12 m12 s12">
+			<div class="col l3 offset-l1 m12 s12 center">
+				<h6 class="grey-text text-darken-4">OUR COMMUNITY</h6>
+				<p>Lorem ipsum dolor maiores unde maxime, deserunt, eum.</p>
+			</div>
+			<div class="col l4 m12 s12">
+				<img class="responsive-img" src="assets/img/car.jpg" alt="">
+			</div>
+			<div class="col l4 m12 s12">
+				<img class="responsive-img" src="assets/img/leaf.jpg" alt="">
+			</div>
+		</div>
 	</div>
 
 	<script src="dist/js/script.js"></script>

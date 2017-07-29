@@ -20252,3 +20252,13 @@ if (jQuery) {
     $.error('Method ' + methodOrOptions + ' does not exist on jQuery.tap-target');
   };
 })(jQuery);
+
+$(document).ready(function(){
+	//side Navbar
+	$('.button-collapse').sideNav({
+		menuWidth: 170,
+		edge: 'left',
+		closeOnClick: true,
+		draggable: true
+	})
+})
