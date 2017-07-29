@@ -91,6 +91,26 @@ nav{
 	}
 }
 
+.subscribe{
+	background-image: url('../img/bg2.jpg');
+	padding: 260px;
+	margin: 0;
+	h5{
+		font-family: 'Nunito', sans-serif;
+	}
+}
+
+.pie{
+	padding: 20px;
+	margin: 0;
+	p{
+		font-family: 'Nunito', sans-serif;
+		span{
+			color: cyan;
+		}
+	}
+}
+
 @media (max-width: 768px){
 	.fondo{
 		margin-top: -100px;
